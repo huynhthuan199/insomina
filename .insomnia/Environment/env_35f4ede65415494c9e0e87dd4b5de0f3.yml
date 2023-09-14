@@ -1,0 +1,16 @@
+_id: env_35f4ede65415494c9e0e87dd4b5de0f3
+type: Environment
+parentId: env_c3ee99fc022722c643a6b3e59d2d7760ae926d7e
+modified: 1693387768703
+created: 1690443955476
+name: dev
+data:
+  baseURL: 34.85.18.108:8092
+  chatURL: 34.85.18.108:8018
+dataPropertyOrder:
+  "&":
+    - baseURL
+    - chatURL
+color: null
+isPrivate: false
+metaSortKey: 1690443955476

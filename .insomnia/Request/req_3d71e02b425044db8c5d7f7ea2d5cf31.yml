@@ -1,0 +1,32 @@
+_id: req_3d71e02b425044db8c5d7f7ea2d5cf31
+type: Request
+parentId: fld_18552547036d495ebabf12bb1c2339dd
+modified: 1694682625311
+created: 1694511937562
+url: "{{ _.baseURL
+  }}/api/stowgenie/v1/explorer/chat/share-link/Tl7ZGN27tLycbcIYGqCMhT6M892kmwNA\
+  /continue-chat"
+name: continueChat
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"password": "thuannh"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.2
+authentication: {}
+metaSortKey: -1691362022550.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,10 @@
+_id: fld_d687ef6c3a06449d9666e13a69720cc3
+type: RequestGroup
+parentId: wrk_6fd91691ec6b40f1b3b71c02279485bc
+modified: 1693376834051
+created: 1693376834051
+name: Chat LangChain
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1692206528614.5

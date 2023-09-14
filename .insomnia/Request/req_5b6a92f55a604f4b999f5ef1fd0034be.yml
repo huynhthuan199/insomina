@@ -1,0 +1,40 @@
+_id: req_5b6a92f55a604f4b999f5ef1fd0034be
+type: Request
+parentId: fld_f8ba1b414ce647df9dc2e49849d425c8
+modified: 1694681770228
+created: 1692755083252
+url: "{{ _.baseURL }}/api/stowgenie/v1/bayplan/detail"
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"conditions": [
+    		{
+    			"pol": "AEJEA",
+    			"vslNm": "TYS LONDON",
+    			"voyNo": "184E",
+    			"svcLaneCd": "200"
+    		}
+    	],
+    	"bayplanSeq": 137,
+    	"generateImage": false,
+    	"message": "delete columns missing values 80%"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.5
+authentication: {}
+metaSortKey: -1688123926106.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

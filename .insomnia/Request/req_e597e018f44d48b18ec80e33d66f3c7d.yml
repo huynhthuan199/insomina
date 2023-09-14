@@ -1,0 +1,38 @@
+_id: req_e597e018f44d48b18ec80e33d66f3c7d
+type: Request
+parentId: fld_d687ef6c3a06449d9666e13a69720cc3
+modified: 1693469895121
+created: 1693376834059
+url: "{{ _.chatURL }}/explorer"
+name: searchPlanExplorerGpt
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"conditions": [
+    		{
+    			"pol": "AEJEA",
+    			"vslNm": "TYS LONDON",
+    			"voyNo": "184E"
+    		}
+    	],
+    	"question": "show me the pod and the quantity of container by POD",
+    	"userid": "KennyJung"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.3
+authentication: {}
+metaSortKey: -1691784315629.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: req_4d88b98e68004aa0be4aa9cdb63f8e69
+type: Request
+parentId: fld_f8ba1b414ce647df9dc2e49849d425c8
+modified: 1690444069264
+created: 1690362539398
+url: "{{ _.baseURL }}/api/stowgenie/v1/bayplan"
+name: list
+description: ""
+method: GET
+body:
+  mimeType: application/json
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1689426323555.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

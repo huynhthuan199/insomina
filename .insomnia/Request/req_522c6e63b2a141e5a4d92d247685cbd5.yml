@@ -1,0 +1,33 @@
+_id: req_522c6e63b2a141e5a4d92d247685cbd5
+type: Request
+parentId: fld_18552547036d495ebabf12bb1c2339dd
+modified: 1693994720484
+created: 1693989661372
+url: "{{ _.baseURL
+  }}/api/stowgenie/v1/explorer/chat/780278432ea1bd572e3e9a2cf4f59281fff9006a0ea\
+  62a0d02106b9d1386dff5/change-access-link"
+name: ChangeAccessLink
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"isPublic": true,
+    	"password": "123123"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.2
+authentication: {}
+metaSortKey: -1691195732639.2031
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

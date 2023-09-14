@@ -1,0 +1,29 @@
+_id: req_f591742ab0b644c3bd4d52afa1c2c368
+type: Request
+parentId: fld_f8ba1b414ce647df9dc2e49849d425c8
+modified: 1693211169343
+created: 1691120146316
+url: "{{ _.baseURL }}/api/stowgenie/v1/bayplan/search"
+name: search
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_4b158f885d9a452690af161ecaab373b
+    name: message
+    value: ""
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: 1235345344234sdfxcvasdazxczxc
+  prefix: Bearer
+  disabled: true
+metaSortKey: -1691120146316
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_fc77b49c2a8b4ac59911a5ffc08113a0
+type: Request
+parentId: fld_18552547036d495ebabf12bb1c2339dd
+modified: 1693992271877
+created: 1692176673168
+url: "{{ _.baseURL
+  }}/api/stowgenie/v1/explorer/chat/780278432ea1bd572e3e9a2cf4f59281fff9006a0ea\
+  62a0d02106b9d1386dff5"
+name: GetAllMessage
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.2
+authentication: {}
+metaSortKey: -1691603898784.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_a333f28803d44f00a53cfe97ffa8c6b4
+type: Request
+parentId: fld_caa0565717a945638afe227eb2257d90
+modified: 1693299702911
+created: 1693299240229
+url: "{{ _.baseURL }}/api/stowgenie/v1/explorer/report/1693290578993"
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"hashValue": "23",
+    	"name": "report rename2"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.5
+authentication: {}
+metaSortKey: -1692352031218.2188
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

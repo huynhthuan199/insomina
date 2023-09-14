@@ -1,0 +1,37 @@
+_id: req_3d1d8e7139364e0ca66e65cc8de90631
+type: Request
+parentId: fld_d687ef6c3a06449d9666e13a69720cc3
+modified: 1693376834053
+created: 1693376834053
+url: "{{ _.chatURL }}/searchPlanListGpt"
+name: SearchPlanListGpt
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"question": "I want to find record that have port of loading is MYTPP and Voyage number is 201E",
+    	"conditions": [
+    		{
+    			"pol": "MAPTM",
+    			"vslNm": "TYS BARCELONA",
+    			"voyNo": "201E"
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.3
+authentication: {}
+metaSortKey: -1692325566165
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

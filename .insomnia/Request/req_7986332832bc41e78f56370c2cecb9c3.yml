@@ -1,0 +1,39 @@
+_id: req_7986332832bc41e78f56370c2cecb9c3
+type: Request
+parentId: fld_d687ef6c3a06449d9666e13a69720cc3
+modified: 1693377632199
+created: 1693376834061
+url: "{{ _.chatURL }}/detail"
+name: searchPlanDetailGpt2
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"conditions": [
+    		{
+    			"pol" : "AEJEA",
+    			"vslNm" : "200 TYS LONDON",
+    			"voyNo" : "184E"
+    		}
+    	],
+    	"hashValue" : "f3666c6fa335d0bf43884ec0c500c76c3628f13c50a8569146945a9cb6ebddb9",
+    	"question": "find me containers that have DEHAM as POD",
+    	"userId": "KennyJung"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.3
+authentication: {}
+metaSortKey: -1691874524052.1875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

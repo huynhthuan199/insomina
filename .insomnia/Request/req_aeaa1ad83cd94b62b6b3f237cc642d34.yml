@@ -1,0 +1,41 @@
+_id: req_aeaa1ad83cd94b62b6b3f237cc642d34
+type: Request
+parentId: fld_18552547036d495ebabf12bb1c2339dd
+modified: 1694681000361
+created: 1692246020766
+url: "{{ _.baseURL
+  }}/api/stowgenie/v1/explorer/chat/780278432ea1bd572e3e9a2cf4f59281fff9006a0ea\
+  62a0d02106b9d1386dff5/share-link"
+name: ShareLink
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"isPublic": false,
+    	"password": "thuannh",
+    	"bayplanSeq": 137,
+    	"conditions": [
+    		{
+    			"pol": "AEJEA",
+    			"vslNm": "TYS LONDON",
+    			"voyNo": "184E"
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.2
+authentication: {}
+metaSortKey: -1691241084433.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

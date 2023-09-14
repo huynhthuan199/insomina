@@ -1,0 +1,31 @@
+_id: req_c57e7e767aa64997ab9cdb5162a26f3a
+type: Request
+parentId: fld_70ad4e6207b040deb3ecdcfbf0386efe
+modified: 1693295879568
+created: 1692329907171
+url: "{{ _.chatURL }}/searchPlanDetailGpt"
+name: searchPlanDetailGpt
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"question": "Please exclude values with null terminal code",
+    	"userId": "KennyJung"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.3
+authentication: {}
+metaSortKey: -1691964732474.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

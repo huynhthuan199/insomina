@@ -1,0 +1,16 @@
+_id: env_7c7beadb467c42f998a1d70b95e0466d
+type: Environment
+parentId: env_c3ee99fc022722c643a6b3e59d2d7760ae926d7e
+modified: 1694570177403
+created: 1690512932318
+name: local
+data:
+  baseURL: localhost:8090
+  chatURL: localhost:8000
+dataPropertyOrder:
+  "&":
+    - baseURL
+    - chatURL
+color: null
+isPrivate: false
+metaSortKey: 1690512932318

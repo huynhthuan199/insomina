@@ -1,0 +1,38 @@
+_id: req_6a5ba8ad57ec42649c22f42afcc1711e
+type: Request
+parentId: fld_d687ef6c3a06449d9666e13a69720cc3
+modified: 1693385680082
+created: 1693379689076
+url: "{{ _.chatURL }}/test"
+name: test
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"conditions": [
+    		{
+    			"pol": "AEJEA",
+    			"vslNm": "TYS LONDON",
+    			"voyNo": "184E"
+    		}
+    	],
+    	"question": "How many 40' containers have been loaded? ",
+    	"userid": "KennyJung"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.3
+authentication: {}
+metaSortKey: -1691694107207.0625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

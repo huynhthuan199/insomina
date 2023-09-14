@@ -1,0 +1,29 @@
+_id: req_1180023f75714a449fb31bc29fe862be
+type: Request
+parentId: fld_18552547036d495ebabf12bb1c2339dd
+modified: 1693992454593
+created: 1693989436739
+url: "{{ _.baseURL
+  }}/api/stowgenie/v1/explorer/chat/780278432ea1bd572e3e9a2cf4f59281fff9006a0ea\
+  62a0d02106b9d1386dff5/delete-link"
+name: DeleteLink
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.2
+authentication: {}
+metaSortKey: -1691210849903.8438
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

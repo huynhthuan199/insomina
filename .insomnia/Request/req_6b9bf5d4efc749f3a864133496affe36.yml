@@ -1,0 +1,27 @@
+_id: req_6b9bf5d4efc749f3a864133496affe36
+type: Request
+parentId: fld_70ad4e6207b040deb3ecdcfbf0386efe
+modified: 1694483987211
+created: 1694051189700
+url: "{{ _.chatURL }}/generate-image"
+name: test
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.3
+authentication: {}
+metaSortKey: -1692145149319.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

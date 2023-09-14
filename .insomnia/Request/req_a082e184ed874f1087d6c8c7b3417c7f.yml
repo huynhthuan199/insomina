@@ -1,0 +1,30 @@
+_id: req_a082e184ed874f1087d6c8c7b3417c7f
+type: Request
+parentId: fld_caa0565717a945638afe227eb2257d90
+modified: 1693968790194
+created: 1692608975130
+url: "{{ _.baseURL }}/api/stowgenie/v1/explorer/report/1693968776470"
+name: one
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"hashValue": "55"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.5
+authentication: {}
+metaSortKey: -1692466713115.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

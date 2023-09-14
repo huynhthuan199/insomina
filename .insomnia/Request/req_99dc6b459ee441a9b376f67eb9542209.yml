@@ -1,0 +1,44 @@
+_id: req_99dc6b459ee441a9b376f67eb9542209
+type: Request
+parentId: fld_f8ba1b414ce647df9dc2e49849d425c8
+modified: 1693807406122
+created: 1690863219589
+url: localhost:8000/calc-correlation
+name: calculate Correlation
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"sql": "SELECT M.SVC_LANE_CD , D.VSL_NM, D.VOY_NO, D.POL, FORMAT_DATE('%Y-%m-%d', S.ETA) AS ETA FROM R_2.sto_dtl D JOIN R_2.sto_mst M ON D.PLAN_ID = M.PLAN_ID AND D.SEQ = M.SEQ JOIN R_2.sto_vsl_sch S ON M.VSL_SCH_ID = S.VSL_SCH_ID GROUP BY M.SVC_LANE_CD, VSL_NM, VOY_NO, POL, S.ETA ORDER BY S.ETA DESC LIMIT 50"
+    }
+parameters: []
+headers:
+  - name: Accept
+    value: application/json, text/plain, */*
+  - name: Accept-Language
+    value: vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5
+  - name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsInVzZXJuYW1lIjoiYWRtaW4iLCJjb21wYW55SWQiOiJUWSIsImVtYWlsIjoiIiwiY2VsbHBob25lIjoiIiwibmlja25hbWUiOiIiLCJmdWxsTmFtZSI6IkFkbWluIiwicGhvbmUiOiIiLCJ0aW1lWm9uZUlkIjoiR01UKzAwOjAwIiwiYXBwcm92YWxHcm91cCI6eyJhcHByb3ZhbEdyb3VwQ29kZSI6NCwiYXBwcm92YWxHcm91cE5hbWUiOiJwYXlyb2xsIGFkbWluIiwiYXBwcm92YWxVc2VySWQiOiJhZG1pbiIsImFwcHJvdmFsU3RhdHVzQ29kZSI6IjYiLCJhcHByb3ZhbE54dFN0YXR1c0NvZGUiOiI3IiwiYXBwcm92YWxQcmVTdGF0dXNDb2RlIjoiNSIsImFwcHJvdmFsRGVwYXJ0bWVudENhdGVnb3J5IjoiViJ9LCJpYXQiOjE2OTA0Mzg3MTgsImV4cCI6MTcyMTk3NDcxOH0.50fnhr8c-eTI6mGMbKgbZ2eyMP7Pvjn8QDVWR-_Mjf-5ykJtBttiJDIYtS6k-KSjMVXK9xhqt8LmKsBQhxpQYA
+  - name: Connection
+    value: keep-alive
+  - name: Content-Type
+    value: application/json
+  - name: Origin
+    value: http://localhost:8888
+  - name: Referer
+    value: http://localhost:8888/
+  - name: User-Agent
+    value: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like
+      Gecko) Chrome/115.0.0.0 Safari/537.36
+authentication: {}
+metaSortKey: -1691101748204.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

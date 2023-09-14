@@ -1,0 +1,32 @@
+_id: req_c0368d61f1fd4f01aea23ddd8847f33a
+type: Request
+parentId: fld_caa0565717a945638afe227eb2257d90
+modified: 1693898877743
+created: 1693278726443
+url: "{{ _.baseURL }}/api/stowgenie/v1/explorer/report"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "report 5",
+    	"dataLabel" : "200 TYS BARCELONA 201E DEHAM",
+    	"hashValue": "55"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.5
+authentication: {}
+metaSortKey: -1692396139640.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

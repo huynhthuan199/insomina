@@ -1,0 +1,10 @@
+_id: fld_18552547036d495ebabf12bb1c2339dd
+type: RequestGroup
+parentId: wrk_6fd91691ec6b40f1b3b71c02279485bc
+modified: 1692087640901
+created: 1692087640901
+name: GroupChat
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1692087640901

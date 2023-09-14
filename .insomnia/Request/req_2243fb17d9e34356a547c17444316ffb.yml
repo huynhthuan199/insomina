@@ -1,0 +1,307 @@
+_id: req_2243fb17d9e34356a547c17444316ffb
+type: Request
+parentId: fld_f8ba1b414ce647df9dc2e49849d425c8
+modified: 1692006796856
+created: 1691046553869
+url: "{{ _.baseURL }}/api/stowgenie/v1/bayplan/export"
+name: export
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"data": [
+    		{
+    				"blockStow": null,
+    				"ovDimHeight": 0,
+    				"sztp": "40WC",
+    				"ovDimStarboard": 0,
+    				"hndlInst": null,
+    				"ovSlotStarboard": 0,
+    				"sftCostRestow": 0,
+    				"hndlInst2": null,
+    				"hndlInst3": null,
+    				"sftSubRsn": null,
+    				"oprCd": "TYS11",
+    				"sftCostShift": 0,
+    				"prevPortCod": null,
+    				"cellPosition": null,
+    				"prevVoyCod": null,
+    				"weight": 32767,
+    				"ovSlotHeight": 0,
+    				"pod": "AEJEA",
+    				"finalPod": null,
+    				"sftAcc": null,
+    				"planId": "188efbd4-06a0-4ba4-a62d-50de74b2d0fa",
+    				"sequenceNo": 1,
+    				"rfTemp": "-22.0C",
+    				"sftRsn": null,
+    				"pol": "MAPTM",
+    				"polVoyNo": "201E",
+    				"svcLaneCd": "200",
+    				"podVoyNo": "201E",
+    				"ovDimPort": 0,
+    				"sftPort": null,
+    				"prevPosition": "500374",
+    				"polTmnlCd": "TM",
+    				"cntrNo": "WSMU3301791",
+    				"vslNm": "TYS BARCELONA",
+    				"prevTmnlCod": null,
+    				"dest": "AEAJM",
+    				"ovDimForeward": 0,
+    				"seq": 1,
+    				"ovSlotPort": 0,
+    				"fe": "F"
+    			}
+    	],
+    	"headers": [
+    			{
+    				"name": "Vessel Name",
+    				"key": "vslNm",
+    				"categoryType": "Number",
+    				"graphType": "Pie"
+    			},
+    			{
+    				"name": "Plan Id",
+    				"key": "planId",
+    				"categoryType": "Category",
+    				"graphType": "Bar"
+    			},
+    			{
+    				"name": "Sequence",
+    				"key": "seq",
+    				"categoryType": "Category",
+    				"graphType": "Column"
+    			},
+    			{
+    				"name": "SVC LANE CD",
+    				"key": "svcLaneCd",
+    				"categoryType": "Number",
+    				"graphType": "Bar"
+    			},
+    			{
+    				"name": "Cell Position",
+    				"key": "cellPosition",
+    				"categoryType": "Category",
+    				"graphType": "Column"
+    			},
+    			{
+    				"name": "Container Number",
+    				"key": "cntrNo",
+    				"categoryType": "Number",
+    				"graphType": "Column"
+    			},
+    			{
+    				"name": "Operator",
+    				"key": "oprCd",
+    				"categoryType": "Category",
+    				"graphType": "Column"
+    			},
+    			{
+    				"name": "POL",
+    				"key": "pol",
+    				"categoryType": "Category",
+    				"graphType": "Bar"
+    			},
+    			{
+    				"name": "POL Terminal",
+    				"key": "polTmnlCd",
+    				"categoryType": "ID",
+    				"graphType": "Column"
+    			},
+    			{
+    				"name": "Outbound Voyage",
+    				"key": "polVoyNo",
+    				"categoryType": "ID",
+    				"graphType": "Column"
+    			},
+    			{
+    				"name": "POD",
+    				"key": "pod",
+    				"categoryType": "ID",
+    				"graphType": "Column"
+    			},
+    			{
+    				"name": "Inbound Voyage",
+    				"key": "podVoyNo",
+    				"categoryType": "Number",
+    				"graphType": "Column"
+    			},
+    			{
+    				"name": "Block Stowage",
+    				"key": "blockStow",
+    				"categoryType": "ID",
+    				"graphType": "Bar"
+    			},
+    			{
+    				"name": "Destination",
+    				"key": "dest",
+    				"categoryType": "Number",
+    				"graphType": "Pie"
+    			},
+    			{
+    				"name": "Final POD",
+    				"key": "finalPod",
+    				"categoryType": "ID",
+    				"graphType": "Column"
+    			},
+    			{
+    				"name": "Size Type",
+    				"key": "sztp",
+    				"categoryType": "Number",
+    				"graphType": "Column"
+    			},
+    			{
+    				"name": "Weight",
+    				"key": "weight",
+    				"categoryType": "Number",
+    				"graphType": "Column"
+    			},
+    			{
+    				"name": "FE",
+    				"key": "fe",
+    				"categoryType": "ID",
+    				"graphType": "Pie"
+    			},
+    			{
+    				"name": "Reefer Temperature",
+    				"key": "rfTemp",
+    				"categoryType": "Category",
+    				"graphType": "Pie"
+    			},
+    			{
+    				"name": "Over Size Height",
+    				"key": "ovDimHeight",
+    				"categoryType": "Number",
+    				"graphType": "Bar"
+    			},
+    			{
+    				"name": "Over Size Forward",
+    				"key": "ovDimForeward",
+    				"categoryType": "ID",
+    				"graphType": "Column"
+    			},
+    			{
+    				"name": "Over Size Left",
+    				"key": "ovDimPort",
+    				"categoryType": "Number",
+    				"graphType": "Column"
+    			},
+    			{
+    				"name": "Over Size Right",
+    				"key": "ovDimStarboard",
+    				"categoryType": "ID",
+    				"graphType": "Column"
+    			},
+    			{
+    				"name": "Over Slot Height",
+    				"key": "ovSlotHeight",
+    				"categoryType": "ID",
+    				"graphType": "Bar"
+    			},
+    			{
+    				"name": "Over Slot Left",
+    				"key": "ovSlotPort",
+    				"categoryType": "Number",
+    				"graphType": "Column"
+    			},
+    			{
+    				"name": "Over Slot Right",
+    				"key": "ovSlotStarboard",
+    				"categoryType": "Category",
+    				"graphType": "Pie"
+    			},
+    			{
+    				"name": "COD Original POD",
+    				"key": "prevPortCod",
+    				"categoryType": "ID",
+    				"graphType": "Pie"
+    			},
+    			{
+    				"name": "COD Original Terminal",
+    				"key": "prevTmnlCod",
+    				"categoryType": "Number",
+    				"graphType": "Column"
+    			},
+    			{
+    				"name": "COD Original Voyage",
+    				"key": "prevVoyCod",
+    				"categoryType": "Category",
+    				"graphType": "Column"
+    			},
+    			{
+    				"name": "Previous Position",
+    				"key": "prevPosition",
+    				"categoryType": "Category",
+    				"graphType": "Pie"
+    			},
+    			{
+    				"name": "Shifting Port",
+    				"key": "sftPort",
+    				"categoryType": "Category",
+    				"graphType": "Pie"
+    			},
+    			{
+    				"name": "Shifting Reason",
+    				"key": "sftRsn",
+    				"categoryType": "Category",
+    				"graphType": "Column"
+    			},
+    			{
+    				"name": "Shifting Reason 2",
+    				"key": "sftSubRsn",
+    				"categoryType": "ID",
+    				"graphType": "Column"
+    			},
+    			{
+    				"name": "Shifting Account",
+    				"key": "sftAcc",
+    				"categoryType": "Category",
+    				"graphType": "Bar"
+    			},
+    			{
+    				"name": "Shifting Cost Shift",
+    				"key": "sftCostShift",
+    				"categoryType": "Number",
+    				"graphType": "Pie"
+    			},
+    			{
+    				"name": "Shifting Cost Restow",
+    				"key": "sftCostRestow",
+    				"categoryType": "Number",
+    				"graphType": "Pie"
+    			},
+    			{
+    				"name": "Handling Instruction",
+    				"key": "hndlInst",
+    				"categoryType": "ID",
+    				"graphType": "Pie"
+    			},
+    			{
+    				"name": "Handling Instruction2",
+    				"key": "hndlInst2",
+    				"categoryType": "ID",
+    				"graphType": "Column"
+    			},
+    			{
+    				"name": "Handling Instruction3",
+    				"key": "hndlInst3",
+    				"categoryType": "ID",
+    				"graphType": "Pie"
+    			}
+    		]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1691046553869
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

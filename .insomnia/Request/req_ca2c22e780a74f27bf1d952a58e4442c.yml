@@ -1,0 +1,32 @@
+_id: req_ca2c22e780a74f27bf1d952a58e4442c
+type: Request
+parentId: fld_caa0565717a945638afe227eb2257d90
+modified: 1693884974296
+created: 1693883121522
+url: "{{ _.baseURL
+  }}/api/stowgenie/v1/explorer/report/1693880975729/delete-report-item/16938814\
+  38629"
+name: deleteItem
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"hashValue": "23"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.5
+authentication: {}
+metaSortKey: -1692356442060.4219
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,40 @@
+_id: req_1b9c6a4ad4ee4696acee185a6047371d
+type: Request
+parentId: fld_18552547036d495ebabf12bb1c2339dd
+modified: 1694682267984
+created: 1692252644608
+url: "{{ _.baseURL
+  }}/api/stowgenie/v1/explorer/chat/d693d38ec7ee6348645f07822b062c6b7e4c80b09c3\
+  4a4803562577c78740b2d/raw-message"
+name: RawMessage
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"conditions": [
+    		{
+    			"pol": "AEJEA",
+    			"vslNm": "TYS LONDON",
+    			"voyNo": "184E"
+    		}
+    	],
+    	"message": "How many containers were transported by each operator? show me column chart for response"
+    	, "bayplanSeq": 137
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.2
+authentication: {}
+metaSortKey: -1691180615374.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

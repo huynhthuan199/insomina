@@ -1,0 +1,30 @@
+_id: req_caf40405e2664cc5846faa33de790316
+type: Request
+parentId: fld_caa0565717a945638afe227eb2257d90
+modified: 1693280155371
+created: 1693279904274
+url: "{{ _.baseURL }}/api/stowgenie/v1/explorer/report/1693237360987"
+name: delete
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"hashValue": "abc"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.5
+authentication: {}
+metaSortKey: -1692360852902.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

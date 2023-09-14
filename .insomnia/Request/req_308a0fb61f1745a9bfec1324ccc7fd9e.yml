@@ -1,0 +1,39 @@
+_id: req_308a0fb61f1745a9bfec1324ccc7fd9e
+type: Request
+parentId: fld_70ad4e6207b040deb3ecdcfbf0386efe
+modified: 1693808357484
+created: 1692775262095
+url: "{{ _.chatURL }}/bayplan-detail"
+name: searchPlanDetailGpt2
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"conditions": [
+    		{
+    			"pol" : "AEJEA",
+    			"vslNm" : "200 TYS LONDON",
+    			"voyNo" : "184E"
+    		}
+    	],
+    	"hashValue" : "f3666c6fa335d0bf43884ec0c500c76c3628f13c50a8569146945a9cb6ebddb9",
+    	"question": "delete column that have missing values 80%",
+    	"userId": "KennyJung"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.3
+authentication: {}
+metaSortKey: -1691874524052.1875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
